@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">My Application</string>
-    <string name="title_item_detail">Item Detail</string>
+    <string name="app_name">JF Builds</string>
+    <string name="title_item_detail">Details of Item</string>
 
 </resources>
