@@ -1,10 +1,10 @@
 package com.jfbuilds.myapplication;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.app.Activity;
-
-
+import android.view.MenuItem;
+import android.widget.Toast;
 
 
 /**
@@ -51,7 +51,23 @@ public class ItemListActivity extends Activity
                     .setActivateOnItemClick(true);
         }
 
+        Toast msg = Toast.makeText(this, "Activity Created", Toast.LENGTH_LONG);
+        msg.show();
+
+        Toast msg2 = Toast.makeText(this, "Activity Created Second", Toast.LENGTH_LONG);
+        msg2.show();
+
+        Toast msg3 = Toast.makeText(this, "Activity Created Third", Toast.LENGTH_LONG);
+        msg3.show();
+
         // TODO: If exposing deep links into your app, handle intents here.
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        Toast msg = Toast.makeText(this, "Option Selected", Toast.LENGTH_LONG);
+        msg.show();
+        return super.onOptionsItemSelected(item);
     }
 
     /**

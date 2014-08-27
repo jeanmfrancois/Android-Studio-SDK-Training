@@ -9,9 +9,6 @@ import android.widget.TextView;
 
 import com.jfbuilds.myapplication.dummy.DummyContent;
 
-import java.util.Arrays;
-import java.util.List;
-
 /**
  * A fragment representing a single Item detail screen.
  * This fragment is either contained in a {@link ItemListActivity}
@@ -56,10 +53,7 @@ public class ItemDetailFragment extends Fragment {
 
         // Show the dummy content as text in a TextView.
         if (mItem != null) {
-
-            List<String> videoGames = Arrays.asList("Mario", "Zelda", "Sonic", "Resident Evil");
-            String myGame = "Freddy";
-            ((TextView) rootView.findViewById(R.id.item_detail)).setText("JF " + mItem.content + myGame);
+            ((TextView) rootView.findViewById(R.id.item_detail)).setText( mItem.content );
 
         }
 
