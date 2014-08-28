@@ -3,24 +3,44 @@
 <!-- Generated with http://android-holo-colors.com -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
-  <style name="AutoCompleteTextViewJFBuilds" parent="android:Widget.Holo.Light.AutoCompleteTextView">
+  <style name="EditTextJFBuilds" parent="android:Widget.EditText">
+	  <item name="android:background">@drawable/jfbuilds_edit_text_holo_light</item>
+	  <item name="android:textColor">#000000</item>
+  </style>
+
+  <style name="AutoCompleteTextViewJFBuilds" parent="android:Widget.AutoCompleteTextView">
       <item name="android:dropDownSelector">@drawable/jfbuilds_list_selector_holo_light</item>
-	    <item name="android:background">@drawable/jfbuilds_edit_text_holo_light</item>
+	  <item name="android:background">@drawable/jfbuilds_edit_text_holo_light</item>
+	  <item name="android:textColor">#000000</item>
   </style>
 
-  <style name="ButtonJFBuilds" parent="android:Widget.Holo.Light.Button">
+  <style name="CheckBoxJFBuilds" parent="android:Widget.CompoundButton.CheckBox">
+      <item name="android:button">@drawable/jfbuilds_btn_check_holo_light</item>
+  </style>
+
+  <style name="RadioButtonJFBuilds" parent="android:Widget.CompoundButton.RadioButton">
+      <item name="android:button">@drawable/jfbuilds_btn_radio_holo_light</item>
+  </style>
+
+  <style name="ButtonJFBuilds" parent="android:Widget.Button">
+	  <item name="android:background">@drawable/jfbuilds_btn_default_holo_light</item>
+	  <item name="android:minHeight">48dip</item>
+	  <item name="android:minWidth">64dip</item>
+	  <item name="android:textColor">#000000</item>
+  </style>
+
+  <style name="ImageButtonJFBuilds" parent="android:Widget.ImageButton">
 	  <item name="android:background">@drawable/jfbuilds_btn_default_holo_light</item>
   </style>
 
-  <style name="ImageButtonJFBuilds" parent="android:Widget.Holo.Light.ImageButton">
-	  <item name="android:background">@drawable/jfbuilds_btn_default_holo_light</item>
-  </style>
-
-  <style name="SpinnerJFBuilds" parent="android:Widget.Holo.Light.Spinner">
+  <style name="SpinnerJFBuilds" parent="android:Widget.Spinner">
       <item name="android:background">@drawable/jfbuilds_spinner_background_holo_light</item>
       <item name="android:dropDownSelector">@drawable/jfbuilds_list_selector_holo_light</item>
   </style>
 
+  <style name="SpinnerDropDownItemJFBuilds" parent="android:Widget.DropDownItem.Spinner">
+      <item name="android:checkMark">@drawable/jfbuilds_btn_radio_holo_light</item>
+  </style>
   <style name="TabJFBuilds">
       <item name="android:gravity">center_horizontal</item>
       <item name="android:paddingLeft">16dip</item>
@@ -41,29 +61,59 @@
       <item name="android:maxWidth">180dip</item>
   </style>
 
-  <style name="ProgressBarJFBuilds" parent="android:Widget.Holo.Light.ProgressBar.Horizontal">
+  <style name="ProgressBarJFBuilds" parent="android:Widget.ProgressBar.Horizontal">
       <item name="android:progressDrawable">@drawable/jfbuilds_progress_horizontal_holo_light</item>
       <item name="android:indeterminateDrawable">@drawable/jfbuilds_progress_indeterminate_horizontal_holo_light</item>
+      <item name="android:minHeight">16dip</item>
+      <item name="android:maxHeight">16dip</item>
   </style>
 
-  <style name="SeekBarJFBuilds" parent="android:Widget.Holo.Light.SeekBar">
+  <style name="SeekBarJFBuilds" parent="android:Widget.SeekBar">
       <item name="android:progressDrawable">@drawable/jfbuilds_scrubber_progress_horizontal_holo_light</item>
       <item name="android:indeterminateDrawable">@drawable/jfbuilds_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:minHeight">13dip</item>
+      <item name="android:maxHeight">13dip</item>
       <item name="android:thumb">@drawable/jfbuilds_scrubber_control_selector_holo_light</item>
+      <item name="android:thumbOffset">16dip</item>
+      <item name="android:paddingLeft">16dip</item>
+      <item name="android:paddingRight">16dip</item>
   </style>
 
-  <style name="RatingBarJFBuilds" parent="android:Widget.Holo.Light.RatingBar">
+  <style name="RatingBarJFBuilds" parent="android:Widget.RatingBar">
       <item name="android:progressDrawable">@drawable/jfbuilds_ratingbar_full_holo_light</item>
       <item name="android:indeterminateDrawable">@drawable/jfbuilds_ratingbar_full_holo_light</item>
   </style>
 
-  <style name="RatingBarSmallJFBuilds" parent="android:Widget.Holo.Light.RatingBar.Small">
-      <item name="android:progressDrawable">@drawable/jfbuilds_ratingbar_small_holo_light</item>
-      <item name="android:indeterminateDrawable">@drawable/jfbuilds_ratingbar_small_holo_light</item>
+  <style name="RatingBarBigJFBuilds" parent="android:Widget.RatingBar">
+      <item name="android:progressDrawable">@drawable/jfbuilds_ratingbar_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/jfbuilds_ratingbar_holo_light</item>
+      <item name="android:minHeight">35dip</item>
+      <item name="android:maxHeight">35dip</item>
   </style>
 
-  <style name="ToggleJFBuilds" parent="android:Widget.Holo.Light.Button.Toggle">
+  <style name="RatingBarSmallJFBuilds" parent="android:Widget.RatingBar">
+      <item name="android:progressDrawable">@drawable/jfbuilds_ratingbar_small_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/jfbuilds_ratingbar_small_holo_light</item>
+      <item name="android:minHeight">16dip</item>
+      <item name="android:maxHeight">16dip</item>
+  </style>
+
+  <style name="ToggleJFBuilds" parent="android:Widget.Button.Toggle">
       <item name="android:background">@drawable/jfbuilds_btn_toggle_holo_light</item>
+      <item name="android:minHeight">48dip</item>
+	  <item name="android:textColor">#000000</item>
+  </style>
+
+  <style name="ListViewJFBuilds" parent="android:Widget.ListView">
+      <item name="android:listSelector">@drawable/jfbuilds_list_selector_holo_light</item>
+  </style>
+
+  <style name="ListViewJFBuilds.White" parent="android:Widget.ListView.White">
+      <item name="android:listSelector">@drawable/jfbuilds_list_selector_holo_light</item>
+  </style>
+
+  <style name="SpinnerItemJFBuilds" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+      <item name="android:textColor">#000000</item>
   </style>
 
 </resources>

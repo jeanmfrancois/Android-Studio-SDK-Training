@@ -3,28 +3,27 @@
 <!-- Generated with http://android-holo-colors.com -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
-  <style name="JFBuilds" parent="@style/_JFBuilds"/>
+  <style name="JFBuilds" parent="Theme.Jfbuildsstyle"/>
 
-  <style name="_JFBuilds" parent="android:Theme.Holo.Light">
+  <style name="_JFBuilds" parent="Theme.Sherlock.Light">
 
-    <item name="android:editTextBackground">@drawable/jfbuilds_edit_text_holo_light</item>
+    <item name="android:editTextStyle">@style/EditTextJFBuilds</item>
 
-    <item name="android:textColorHighlight">#99439ee8</item>
-    <item name="android:textSelectHandleLeft">@drawable/jfbuilds_text_select_handle_left</item>
-    <item name="android:textSelectHandleRight">@drawable/jfbuilds_text_select_handle_right</item>
-    <item name="android:textSelectHandle">@drawable/jfbuilds_text_select_handle_middle</item>
+    <item name="android:textColorHighlight">#99178ad5</item>
 
     <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewJFBuilds</item>
 
-    <item name="android:listChoiceIndicatorMultiple">@drawable/jfbuilds_btn_check_holo_light</item>
+    <item name="android:checkboxStyle">@style/CheckBoxJFBuilds</item>
 
-    <item name="android:listChoiceIndicatorSingle">@drawable/jfbuilds_btn_radio_holo_light</item>
+    <item name="android:radioButtonStyle">@style/RadioButtonJFBuilds</item>
 
     <item name="android:buttonStyle">@style/ButtonJFBuilds</item>
 
     <item name="android:imageButtonStyle">@style/ImageButtonJFBuilds</item>
 
-    <item name="android:dropDownSpinnerStyle">@style/SpinnerJFBuilds</item>
+    <item name="android:spinnerStyle">@style/SpinnerJFBuilds</item>
+
+    <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemJFBuilds</item>
 
     <item name="android:progressBarStyleHorizontal">@style/ProgressBarJFBuilds</item>
 
@@ -32,15 +31,17 @@
 
     <item name="android:ratingBarStyle">@style/RatingBarJFBuilds</item>
 
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigJFBuilds</item>
+
     <item name="android:ratingBarStyleSmall">@style/RatingBarSmallJFBuilds</item>
 
     <item name="android:buttonStyleToggle">@style/ToggleJFBuilds</item>
 
-    <item name="android:listChoiceBackgroundIndicator">@drawable/jfbuilds_list_selector_holo_light</item>
+    <item name="android:listViewStyle">@style/ListViewJFBuilds</item>
 
-    <item name="android:activatedBackgroundIndicator">@drawable/jfbuilds_activated_background_holo_light</item>
+    <item name="android:listViewWhiteStyle">@style/ListViewJFBuilds.White</item>
 
-    <item name="android:fastScrollThumbDrawable">@drawable/jfbuilds_fastscroll_thumb_holo</item>
+    <item name="android:spinnerItemStyle">@style/SpinnerItemJFBuilds</item>
 
   </style>
 

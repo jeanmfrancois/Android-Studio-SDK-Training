@@ -3,5 +3,8 @@
 
     <string name="app_name">JF Builds</string>
     <string name="title_item_detail">Details of Item</string>
+    <string name="title_activity_core">CoreActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
 
 </resources>
